@@ -1,0 +1,59 @@
+[debug] [2023-03-03T06:37:14.285Z] ----------------------------------------------------------------------
+[debug] [2023-03-03T06:37:14.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-03T06:37:14.287Z] CLI Version:   11.24.0
+[debug] [2023-03-03T06:37:14.287Z] Platform:      win32
+[debug] [2023-03-03T06:37:14.287Z] Node Version:  v18.14.1
+[debug] [2023-03-03T06:37:14.288Z] Time:          Fri Mar 03 2023 09:37:14 GMT+0300 (Arabian Standard Time)
+[debug] [2023-03-03T06:37:14.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-03T06:37:14.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-03T06:37:14.344Z] > authorizing via signed-in user (mohmmedalkhatm925@gmail.com)
+[debug] [2023-03-03T06:37:14.344Z] [iam] checking project chaslot-61718 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-03T06:37:14.345Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions [none]
+[debug] [2023-03-03T06:37:14.346Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions x-goog-quota-user=projects/chaslot-61718
+[debug] [2023-03-03T06:37:14.346Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-03T06:37:16.090Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions 200
+[debug] [2023-03-03T06:37:16.090Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-03T06:37:16.091Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 [none]
+[debug] [2023-03-03T06:37:17.062Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 200
+[debug] [2023-03-03T06:37:17.062Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 {"projectId":"chaslot-61718","projectNumber":"523466779458","displayName":"chaslot","name":"projects/chaslot-61718","resources":{"hostingSite":"chaslot-61718"},"state":"ACTIVE","etag":"1_5494515b-5857-4dbc-9d88-8b29fbb15811"}
+[debug] [2023-03-03T06:37:37.692Z] TypeError: Cannot read properties of null (reading 'endsWith')
+    at ɵcodegenPublicDirectory (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:206:56)
+    at async prepareFrameworks (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:269:13)
+    at async deploy (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-03T06:43:13.565Z] ----------------------------------------------------------------------
+[debug] [2023-03-03T06:43:13.567Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-03T06:43:13.567Z] CLI Version:   11.24.0
+[debug] [2023-03-03T06:43:13.567Z] Platform:      win32
+[debug] [2023-03-03T06:43:13.567Z] Node Version:  v18.14.1
+[debug] [2023-03-03T06:43:13.569Z] Time:          Fri Mar 03 2023 09:43:13 GMT+0300 (Arabian Standard Time)
+[debug] [2023-03-03T06:43:13.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-03T06:43:13.624Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-03T06:43:13.624Z] > authorizing via signed-in user (mohmmedalkhatm925@gmail.com)
+[debug] [2023-03-03T06:43:13.624Z] [iam] checking project chaslot-61718 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-03T06:43:13.626Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions [none]
+[debug] [2023-03-03T06:43:13.626Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions x-goog-quota-user=projects/chaslot-61718
+[debug] [2023-03-03T06:43:13.626Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-03T06:43:15.105Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions 200
+[debug] [2023-03-03T06:43:15.105Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chaslot-61718:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-03T06:43:15.106Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 [none]
+[debug] [2023-03-03T06:43:15.808Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 200
+[debug] [2023-03-03T06:43:15.808Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718 {"projectId":"chaslot-61718","projectNumber":"523466779458","displayName":"chaslot","name":"projects/chaslot-61718","resources":{"hostingSite":"chaslot-61718"},"state":"ACTIVE","etag":"1_dd56b833-ce3c-4316-8104-ce5a556a5877"}
+[debug] [2023-03-03T06:43:18.074Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites pageToken=&pageSize=10
+[debug] [2023-03-03T06:43:19.930Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites 200
+[debug] [2023-03-03T06:43:19.930Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites {"sites":[{"name":"projects/chaslot-61718/sites/chaslot-61718","defaultUrl":"https://chaslot-61718.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-03T06:43:19.930Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites 
+[debug] [2023-03-03T06:43:20.873Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites 200
+[debug] [2023-03-03T06:43:20.873Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/chaslot-61718/sites {"sites":[{"name":"projects/chaslot-61718/sites/chaslot-61718","defaultUrl":"https://chaslot-61718.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-03T06:43:20.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718/webApps/-/config [none]
+[debug] [2023-03-03T06:43:21.831Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718/webApps/-/config 200
+[debug] [2023-03-03T06:43:21.831Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chaslot-61718/webApps/-/config {"projectId":"chaslot-61718","storageBucket":"chaslot-61718.appspot.com","apiKey":"AIzaSyArQRZwau1TkqpodwGXh-kAHiIYypnoFAE","authDomain":"chaslot-61718.firebaseapp.com","messagingSenderId":"523466779458"}
+[debug] [2023-03-03T06:43:39.596Z] TypeError: Cannot read properties of null (reading 'endsWith')
+    at ɵcodegenPublicDirectory (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:206:56)
+    at async prepareFrameworks (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:269:13)
+    at async deploy (C:\Users\mohmmed alkhatm\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
